@@ -27,11 +27,10 @@ Created on Tue May 19 21:30:59 2020
 
 #Write your function here!
 def write_file(file, data):
-    data = "data"
-    output = open("file", "w")
+    data = str(data)
+    output = open(file, "w")
     output.write(data)
     return output.close()
-
 
 #Below are some lines of code that will test your function.
 #You can change the value of the variable(s) to test your
@@ -42,7 +41,7 @@ def write_file(file, data):
 #in the top left after running it, the contents of the
 #file should be 1301.
 # write_file("WriteFileOutput.txt", 1301)
-write_file("AutomatedTestOutput16.txt", b[pG-Lv8v@o%)
+write_file("WriteFileOutput.txt", 1301)
 
 
 
