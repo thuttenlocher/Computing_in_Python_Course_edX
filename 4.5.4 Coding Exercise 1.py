@@ -21,32 +21,20 @@ name = ["David Joyner", "David Zuber", "Brenton Joyner",
              "Shelba Crowley", "Shelba Fernald", "Shelba Odle",
              "Shelba Fry", "Maren Fry"]
 
-data = {}
-for x in name:
-    print(x)
-    data = x.split(" ")
-
-
-
-
-
-"""
 #Add your function here!
 def name_counts(names):
     data = {}
+    hold = []
     for x in names:
-        data = x.split(" ")
-        
-    
-    
-    
-    
-    
+        x = x.split()
+        first = x[0]
+        if first not in hold:
+            data[first] = 1
+        else:
+            data[first] += 1
+            hold.append(first)    
     return data
     
-
-
-
 #Below are some lines of code that will test your function.
 #You can change the value of the variable(s) to test your
 #function with different inputs.
@@ -59,6 +47,6 @@ name_list = ["David Joyner", "David Zuber", "Brenton Joyner",
              "Shelba Crowley", "Shelba Fernald", "Shelba Odle",
              "Shelba Fry", "Maren Fry"]
 print(name_counts(name_list))
-"""
+
 
 
