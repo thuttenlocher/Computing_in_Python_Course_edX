@@ -16,13 +16,27 @@ Created on Mon May 25 09:57:31 2020
 #
 #HINT: Use split() to split names into first and last.
 
+name = ["David Joyner", "David Zuber", "Brenton Joyner",
+             "Brenton Zuber", "Nicol Barthel", "Shelba Barthel",
+             "Shelba Crowley", "Shelba Fernald", "Shelba Odle",
+             "Shelba Fry", "Maren Fry"]
 
+data = {}
+for x in name:
+    print(x)
+    data = x.split(" ")
+
+
+
+
+
+"""
 #Add your function here!
 def name_counts(names):
     data = {}
     for x in names:
         data = x.split(" ")
-    
+        
     
     
     
@@ -30,6 +44,7 @@ def name_counts(names):
     
     return data
     
+
 
 
 #Below are some lines of code that will test your function.
@@ -44,6 +59,6 @@ name_list = ["David Joyner", "David Zuber", "Brenton Joyner",
              "Shelba Crowley", "Shelba Fernald", "Shelba Odle",
              "Shelba Fry", "Maren Fry"]
 print(name_counts(name_list))
-
+"""
 
 
