@@ -16,11 +16,6 @@ Created on Mon May 25 09:57:31 2020
 #
 #HINT: Use split() to split names into first and last.
 
-name = ["David Joyner", "David Zuber", "Brenton Joyner",
-             "Brenton Zuber", "Nicol Barthel", "Shelba Barthel",
-             "Shelba Crowley", "Shelba Fernald", "Shelba Odle",
-             "Shelba Fry", "Maren Fry"]
-
 #Add your function here!
 def name_counts(names):
     data = {}
