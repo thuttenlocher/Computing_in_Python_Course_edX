@@ -32,16 +32,7 @@ def sort_with_select(a_list):
             #index in the variable minIndex.
             #
             #Write your code here!
-            print("i: " + str(i) + " j: " + str(j))
-            print("If i: " + str(a_list[i]) + \
-                  " > " + \
-                  "j: " + str(a_list[j]))
 
-            if a_list[j-1] > a_list[j]:
-                minIndex = j
-            # else:
-            #     minIndex = j
-            print("MinIndex: " + str(minIndex))
             
         #Save the current minimum value since we're about
         #to delete it
@@ -66,3 +57,25 @@ def sort_with_select(a_list):
 #print(sort_with_select([5, 3, 1, 2, 4]))
 #print: [9, 14, 18, 26, 39, 41, 46, 49]
 print(sort_with_select([49, 26, 41, 46, 18, 9, 39, 14]))
+
+
+
+
+
+
+
+"""
+
+            print("i: " + str(i) + " j: " + str(j))
+            print("If i: " + str(a_list[i]) + \
+                  " > " + \
+                  "j: " + str(a_list[j]))
+
+            if a_list[j-1] > a_list[j]
+                minIndex = j
+            # else:
+            #     minIndex = j
+            print("MinIndex: " + str(minIndex))
+            
+            
+"""
